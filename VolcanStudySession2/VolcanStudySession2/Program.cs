@@ -42,27 +42,20 @@ public class Opdracht6
                 this._name = Name;
             }
         }
+        private Car _waitingCar;
+        public Car waitingCar
+        {
+            get
+            {
+                return _waitingCar;
 
+            }
+            set
+            {
+                this._waitingCar = value;
 
-        //public string Car.Name
-        //{
-        //    get
-        //    {
-        //        return Car._name;
-        //    }
-        //    set
-        //    {
-        //        if (Car.Name != null)
-        //        {
-        //            Car.Name = value;
-        //        }
-        //        else
-        //        {
-        //            Car.Name = "There is no car";
-        //        }
-        //    }
-        //}
-
+            }
+        }
         public Shore(string Name)
         {
             this._name = Name;
